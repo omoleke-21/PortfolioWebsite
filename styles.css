@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .about-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #333;
+  }
+  .btn-pink {
+    background-color: #ff6f91;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-pink:hover {
+    transform: scale(1.1);
+  }
+  
+  .contact-me-section i {
+    color: #ff6f91;
+  }
+/* styles.css */
+
+/* Ensure navbar is always on top */
+.navbar {
+    z-index: 1030;
+  }
+  
+  /* Add padding to avoid content being hidden behind the navbar */
+  body {
+    padding-top: 56px; /* Adjust based on navbar height */
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px; /* Add spacing between links */
+    font-size: 1rem;    /* Adjust font size */
+  }
+  
+  .nav-link:hover {
+    color: #f8d7da !important; /* Highlight on hover */
+  }
+  
+  
